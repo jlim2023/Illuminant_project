@@ -58,9 +58,9 @@ int main(int argc, char** argv)
     Mat src, src_gray;
 
     // Read the image
-    //String imageName("C:/Users/jlim1/OneDrive/Documents/Career/Illuminant/illuminant_standard_take-home_2024/rgb.png"); // by default
+    String imageName("C:/Users/jlim1/OneDrive/Documents/Career/Illuminant/illuminant_standard_take-home_2024/rgb.png"); // by default
     //String imageName("C:/Users/jlim1/OneDrive/Documents/Career/Illuminant/illuminant_standard_take-home_2024/gray.png"); 
-    String imageName("C:/Users/jlim1/OneDrive/Documents/Career/Illuminant/illuminant_standard_take-home_2024/smarties.png");
+    //String imageName("C:/Users/jlim1/OneDrive/Documents/Career/Illuminant/illuminant_standard_take-home_2024/smarties.png");
     if (argc > 1)
     {
         imageName = argv[1];
